@@ -7,7 +7,7 @@ const projectsData = [
     title: 'Digital Kohat - Smart City Platform',
     description: 'A comprehensive MERN platform centralizing City services with real-time Socket.IO notifications, multi-level dashboards, and Cloudinary asset management.',
     image: '/P1Thumbnail.png',
-    video: '/FirstProject.mp4',
+    video: 'https://res.cloudinary.com/djnte3lgt/video/upload/v1773295722/FirstProject_hgzys1.mp4',
     tech: ['MERN Stack', 'Socket.io', 'Cloudinary', 'JWT', 'Argon2'],
     github: 'https://github.com/Humnaa-Nadeem/Digital-Kohat.git',
     live: 'https://digital-kohat.vercel.app/'
@@ -16,7 +16,7 @@ const projectsData = [
     title: 'Phone-Zone 📱',
     description: 'A comprehensive MERN stack application for mobile retail featuring brand-wise browsing, functional shopping cart, and a dedicated administrative dashboard.',
     image: '/P2Thumbnail.png',
-    video: '/SecondProject.mp4',
+    video: 'https://res.cloudinary.com/djnte3lgt/video/upload/v1773296715/SecondProject_r8lfqo.mp4',
     tech: ['MERN Stack', 'React', 'Node.js', 'MongoDB', 'Zod', 'Multer'],
     github: 'https://github.com/awaisanwarcode/Phone-Zone.git'
   },
@@ -24,7 +24,7 @@ const projectsData = [
     title: "Restaurant Management System (Khiva's Restaurant) 🍴",
     description: "A full-stack restaurant management platform with interactive menu browsing, real-time cart management, and a comprehensive admin dashboard for order tracking.",
     image: "/P3Thumbnail.png",
-    video: "/ThirdProject.mp4",
+    video: "https://res.cloudinary.com/djnte3lgt/video/upload/v1773296858/ThirdProject_jdlzgo.mp4",
     tech: ["MERN Stack", "React", "Node.js", "MongoDB", "Argon2", "JWT"],
     github: "https://github.com/awaisanwarcode/Khiva-s-Resturant.git"
   },
@@ -32,7 +32,7 @@ const projectsData = [
     title: 'Personal Portfolio',
     description: 'A production-ready, highly responsive developer portfolio built using the MERN stack. It features modern design aesthetics like dark mode, glassmorphism, and Framer Motion animations to showcase professional projects. The platform includes integrated contact forms and a clean, visually striking interface designed for high-impact personal branding.',
     image: '/P4Thumbnail.png',
-    video: '/FourthProject.mp4',
+    video: 'https://res.cloudinary.com/djnte3lgt/video/upload/v1773296336/FourthProject_rj7d8x.mp4',
     tech: ['React.js', 'Framer Motion', 'React Icons', 'Node.js', 'Express.js', 'MongoDB'],
     github: 'https://github.com/awaisanwarcode/Protfolio.git'
   }
@@ -53,6 +53,9 @@ const Projects = () => {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured <span className="text-primary">Projects</span></h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
+          <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 italic">
+            * Note: Videos may take a few moments to load depending on your connection.
+          </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
